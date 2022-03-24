@@ -10,6 +10,11 @@ function getyRand()
     return Math.random() * (90 - (-90)) + (-90);
 }
 
+function getzoom()
+{
+    return Math.random() * (100 - (10)) + 10;
+}
+
 require([
     "esri/config",
      "esri/Map",
