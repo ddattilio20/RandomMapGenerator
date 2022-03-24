@@ -33,6 +33,7 @@ function randomBasemap()
     }
     if(num == 4)
     {
+        console.log("here");
         return "World Hillshade";
     }
 }
