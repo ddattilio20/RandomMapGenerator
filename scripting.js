@@ -47,7 +47,7 @@ require([
 
      esriConfig.apiKey = "AAPKd2868e06c350482682380e0457547c6eJL7Rfy_i2OADULBHup8dzZFTRETbH1GuAAQ9Vw7aiyGn8AU2boTDQuMsVjgx8YsS";
      const map = new Map({
-       basemap: "arcgis-imagery"
+       basemap: randomBasemap()
      });
 
      const view = new MapView({
