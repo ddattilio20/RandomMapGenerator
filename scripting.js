@@ -1,8 +1,9 @@
 
 
 function getxRand()
-{
+{console.log(getzoom());
     return Math.random() * (180 - (-180)) + (-180);
+    
 }
 
 function getyRand()
@@ -32,6 +33,6 @@ require([
        container: "viewDiv",
        map: map,
        center: [getxRand(),getyRand()],
-       zoom: getzoom()
+       zoom: 500
      });
     });
