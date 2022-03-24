@@ -31,7 +31,7 @@ function randomBasemap()
     {
         return "DeLorme_World_Base_Map";
     }
-    if(num == 3)
+    if(num == 4)
     {
         return "World Hillshade";
     }
