@@ -32,6 +32,6 @@ require([
        container: "viewDiv",
        map: map,
        center: [getxRand(),getyRand()],
-       zoom: 100
+       zoom: getzoom()
      });
     });
