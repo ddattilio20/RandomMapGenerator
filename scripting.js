@@ -16,6 +16,27 @@ function getzoom()
     return Math.random() * (700 - (500)) + 500;
 }
 
+function randomBasemap()
+{
+    var num = Math.floor(Math.random() * (4 - 1) + 1);
+    if(num == 1)
+    {
+        return "arcgis-imagery";
+    }
+    if(num == 2)
+    {
+        return "arcgis-topographic";
+    }
+    if(num == 3)
+    {
+        return "DeLorme_World_Base_Map";
+    }
+    if(num == 3)
+    {
+        return "NatGeo_World_Map";
+    }
+}
+
 require([
     "esri/config",
      "esri/Map",
