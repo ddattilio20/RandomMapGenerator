@@ -12,7 +12,7 @@ function getyRand()
 
 function getzoom()
 {
-    return Math.random() * (100 - (10)) + 10;
+    return Math.random() * (400 - (100)) + 100;
 }
 
 require([
