@@ -33,7 +33,7 @@ function randomBasemap()
     }
     if(num == 3)
     {
-        return "NatGeo_World_Map";
+        return "World Hillshade";
     }
 }
 
