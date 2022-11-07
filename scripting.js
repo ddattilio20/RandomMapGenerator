@@ -46,7 +46,7 @@ require([
      "esri/widgets/BasemapGallery"
    ], function (esriConfig,Map, MapView, BasemapToggle, BasemapGallery) {
 
-     esriConfig.apiKey = "AAPKd2868e06c350482682380e0457547c6eJL7Rfy_i2OADULBHup8dzZFTRETbH1GuAAQ9Vw7aiyGn8AU2boTDQuMsVjgx8YsS";
+     esriConfig.apiKey = "";
      const map = new Map({
        basemap: randomBasemap()
      });
